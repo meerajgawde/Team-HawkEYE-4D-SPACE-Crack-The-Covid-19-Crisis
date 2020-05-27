@@ -1,0 +1,80 @@
+"docType":"iam.identity-access-map"
+"version":"1.0.0"
+"createdById":"IBMid-550007F6X0"
+"date":"2020-05-27T14:05:56.228Z"
+"fullReport":true
+"displayName":"Team HawkEYE"
+"contact":"xlife425@gmail.com",,,,,,,
+"Resource","ID","Name","Email","Group Members","Role","Action","Policy IDs"
+"{""crn"":""crn:v1:bluemix:public:conversation:eu-gb:a/7e011c0ffc9b4904998f2ce071ba0e93:bd1d6474-4e56-4598-8c73-cad1d2df5870::"",
+""displayName"":""Watson Assistant-5y"",
+""serviceName"":""conversation"",
+""resourceGroupId"":""5c73895e4dd4435a9c0f759f2cd82a02"",
+""resourceGroupName"":""Default""}","iam-ServiceId-07ce6e13-1bfd-4336-9fe1-77209ada34cd","Auto-generated service credentials",,,"Manager","POST /conversation POST
+conversation.skill.read Can open and view a skill.
+conversation.assistant.write Can rename, edit, or delete an assistant.
+PUT /conversation PUT
+conversation.assistant.default Default access for Assistant
+PATCH /conversation PATCH
+conversation.assistant.list Can list assistant or skill
+conversation.assistant.legacy Can perform authoring methods for a workspace through v1 APIs.
+conversation.logs.read Can view skill analytics and access user conversation logs.
+GET /conversation GET
+conversation.skill.write Can rename, edit, or delete a skill.
+DELETE /conversation DELETE
+conversation.assistant.read Can open and view an assistant.","=HYPERLINK(""https://cloud.ibm.com/iam/serviceids/ServiceId-07ce6e13-1bfd-4336-9fe1-77209ada34cd/policies/4b4e1e41-7dff-4b35-98cf-2c86cddca863"",""4b4e1e41-7dff-4b35-98cf-2c86cddca863"")"
+,,,,,"Manager","global-search-tagging.resource.read Find cloud resources
+iam.policy.read IAM Policy Read","=HYPERLINK(""https://cloud.ibm.com/iam/serviceids/ServiceId-07ce6e13-1bfd-4336-9fe1-77209ada34cd/policies/4b4e1e41-7dff-4b35-98cf-2c86cddca863"",""4b4e1e41-7dff-4b35-98cf-2c86cddca863"")"
+,"IBMid-550007F6X0","Team HawkEYE","xlife425@gmail.com",,"Manager","POST /conversation POST
+conversation.skill.read Can open and view a skill.
+conversation.assistant.write Can rename, edit, or delete an assistant.
+PUT /conversation PUT
+conversation.assistant.default Default access for Assistant
+PATCH /conversation PATCH
+conversation.assistant.list Can list assistant or skill
+conversation.assistant.legacy Can perform authoring methods for a workspace through v1 APIs.
+conversation.logs.read Can view skill analytics and access user conversation logs.
+GET /conversation GET
+conversation.skill.write Can rename, edit, or delete a skill.
+DELETE /conversation DELETE
+conversation.assistant.read Can open and view an assistant.","=HYPERLINK(""https://cloud.ibm.com/iam/users/IBMid-550007F6X0/policies/5524791e-cc89-4cf1-8214-9b6b93d8667f"",""5524791e-cc89-4cf1-8214-9b6b93d8667f"")"
+,,,,,"Manager","global-search-tagging.resource.read Find cloud resources
+iam.policy.read IAM Policy Read","=HYPERLINK(""https://cloud.ibm.com/iam/users/IBMid-550007F6X0/policies/5524791e-cc89-4cf1-8214-9b6b93d8667f"",""5524791e-cc89-4cf1-8214-9b6b93d8667f"")"
+,,,,,"Administrator","resource-controller.key.delete Resource Key Delete
+global-search-tagging.resource.read Find cloud resources
+iam.policy.update IAM Policy Update
+resource-controller.instance.create Resource Instance Create
+resource-controller.key.retrieve Resource Key Retrieve 
+iam.role.read IAM Role Read
+resource-controller.alias.retrieve Resource Alias Retrieve
+resource-controller.group.retrieve Resource Group Retrieve
+iam.policy.create IAM Policy Create
+resource-controller.key.update Resource Key Update
+resource-controller.instance.retrieve Resource Instance Retrieve
+resource-controller.quota.retrieve Quota Definitions Retrieve
+resource-controller.broker.retrieve Resource Broker Retrieve
+resource-controller.key.create Resource Key Create
+global-search-tagging.tag.attach-user-tag Attach tag
+iam.delegationPolicy.create IAM Delegation policy Create
+resource-controller.alias.create Resource Alias Create
+resource-controller.instance.retrieve_history Resource Instance Retrieve History
+iam.policy.delete IAM Policy Delete
+iam.service.read IAM Service Read
+iam.role.assign IAM Role Assign
+resource-controller.group.update Resource Group Update
+resource-controller.group.delete Resource Group Delete
+resource-controller.alias.delete Resource Alias Delete
+iam.policy.read IAM Policy Read
+resource-controller.broker.update Resource Broker Update
+resource-controller.broker.delete Resource Broker Delete
+resource-controller.binding.update Resource Binding Update
+global-search-tagging.tag.detach-user-tag Detach tag
+resource-controller.binding.create Resource Binding Create 
+resource-controller.instance.update Resource Instance Update
+resource-controller.alias.update Resource Alias Update 
+resource-controller.group.create Resource Group Create
+resource-controller.binding.delete Resource Binding Delete
+resource-controller.binding.retrieve Resource Binding Retrieve
+resource-controller.broker.create Resource Broker Create
+resource-controller.instance.update_plan Resource Instance Update Plan
+resource-controller.instance.delete Resource Instance Delete","=HYPERLINK(""https://cloud.ibm.com/iam/users/IBMid-550007F6X0/policies/5524791e-cc89-4cf1-8214-9b6b93d8667f"",""5524791e-cc89-4cf1-8214-9b6b93d8667f"")"
